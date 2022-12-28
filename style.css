@@ -1,0 +1,123 @@
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+}
+
+.pc {
+  color: #3599f5;
+}
+
+.header a {
+  background-color: #f1f0f0;
+}
+
+.notif {
+  background-color: #3599f5;
+}
+
+.c-login {
+  width: 50%;
+}
+
+.bg-login {
+  /* width: max-content; */
+  background-image: url(Assets/login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tombol {
+  /* width: fit-content; */
+  background-color: #3599f5;
+  color: white;
+}
+
+.tombol:hover {
+  background-color: #1f8aee;
+  color: white;
+}
+
+.tombol-2 {
+  /* width: fit-content; */
+  background-color: #d9d9d9;
+}
+
+.tombol-2:hover {
+  /* width: fit-content; */
+  background-color: #c4c4c4;
+}
+
+.login input[type="text"],
+input[type="password"] {
+  width: 300px;
+  background-color: #d9d9d9;
+  padding: 12px 15px;
+}
+
+/* CATAGORY STYLE */
+.s-judul {
+  width: fit-content;
+  background-image: url(Assets/segmen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c-category > * {
+  width: fit-content;
+  padding: 0;
+  /* background-color: red; */
+}
+
+.s-catagory {
+  margin-top: 70px;
+}
+
+/* CAROUSEL */
+.carousel-item {
+  border: 2px solid rgb(61, 61, 61);
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* CONTENT */
+.v-all {
+  background-image: url(Assets/viewAll.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.v-all:hover {
+  background-color: #ebebeb;
+}
+
+.t-item {
+  position: relative;
+  top: 0;
+  transition: all 0.3s ease;
+}
+
+.t-item:hover {
+  color: rgb(43, 43, 43);
+  top: -10px;
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Admin */
+.c-admin {
+  width: 50%;
+}
